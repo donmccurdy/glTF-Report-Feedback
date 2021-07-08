@@ -2,6 +2,16 @@
 
 Issues, feedback, and feature requests for the https://gltf.report website.
 
+## FAQ
+
+> Which glTF extensions are supported?
+
+The website can open, edit, and export all [extensions supported by glTF-Transform](https://gltf-transform.donmccurdy.com/extensions.html). Some of these extensions will not be shown in the 3D viewport, however, based on [current three.js limitations](https://threejs.org/docs/#examples/en/loaders/GLTFLoader).
+
+> Does glTF Report upload or save my models somewhere?
+
+No. glTF/GLB files opened on the website are not uploaded to a server, and remain on your computer while viewing and editing. The website may collect anonymized analytics (e.g. which glTF extensions are most common?) to improve the glTF ecosystem.
+
 ## Source Code
 
 While the source code for the website is not currently open source, its more interesting components already are:
