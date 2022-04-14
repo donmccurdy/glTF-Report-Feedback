@@ -14,14 +14,16 @@ No. glTF/GLB files opened on the website are not uploaded to a server, and remai
 
 ## Source Code
 
-While the source code for the website is not currently open source, its more interesting components already are:
+The glTF Report website is [open core](https://en.wikipedia.org/wiki/Open-core_model), but not 100% [open source](https://en.wikipedia.org/wiki/Open_source). Most functionality — excluding the user interface (UI) layer — is provided by the projects below, available under MIT License:
 
 - [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform): glTF JavaScript SDK used for edits, analysis, and optimization.
-- [donmccurdy/glTF-Transform-Render](https://github.com/donmccurdy/glTF-Transform-Render/): Experimental rendering API for fast edit/refresh workflows.
-- [google/model-viewer](https://github.com/google/model-viewer): Stable glTF viewer that is fast, simple, and lightweight.
-- [mrdoob/three.js](https://github.com/mrdoob/three.js/): JavaScript 3D library, used by model-viewer and `@gltf-transform/render`.
-- [microsoft/monaco-editor](https://github.com/Microsoft/monaco-editor): Code editor powering VS Code.
-- [sveltejs/svelte](https://github.com/sveltejs/svelte): Lightweight, reactive web framework.
-- [cocopon/tweakpane](https://github.com/cocopon/tweakpane): Compact GUI for editing and monitoring.
+- [donmccurdy/glTF-Transform-View](https://github.com/donmccurdy/glTF-Transform-View/): Experimental rendering API for fast edit/refresh workflows.
 
-Features and bug fixes in the projects above will eventually make their way to the glTF Report website. If you're interested in the website's source code for a collaboration, commercial projects, or other purposes, reach out to [contact@donmccurdy.com](mailto:contact@donmccurdy.com) to discuss licensing options.
+Other important dependencies used by this project include:
+
+- [three.js](https://github.com/mrdoob/three.js/): JavaScript 3D library.
+- [Svelte](https://github.com/sveltejs/svelte): Lightweight, reactive web framework.
+- [Monaco](https://github.com/Microsoft/monaco-editor): Code editor powering VS Code.
+- [Tweakpane](https://github.com/cocopon/tweakpane): Compact GUI for editing and monitoring.
+
+Features and bug fixes in the projects above will eventually make their way to the glTF Report website. If you're interested in the project's source code for collaboration, commercial projects, or other purposes, reach out to [contact@donmccurdy.com](mailto:contact@donmccurdy.com) to discuss licensing options.
