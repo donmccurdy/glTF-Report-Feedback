@@ -1,6 +1,6 @@
 # glTF-Report-Feedback
 
-Issues, feedback, and feature requests for the https://gltf.report website.
+✨ **UPDATE:** Feedback for glTF Report (https://gltf.report) has been moved to https://gltf-report.canny.io/.
 
 ## FAQ
 
@@ -14,7 +14,7 @@ No. glTF/GLB files opened on the website are not uploaded to a server, and remai
 
 ## Source Code
 
-The glTF Report website is [open core](https://en.wikipedia.org/wiki/Open-core_model), but not 100% [open source](https://en.wikipedia.org/wiki/Open_source). Most functionality — excluding the user interface (UI) layer — is provided by the projects below, available under MIT License:
+The glTF Report website is [open core](https://en.wikipedia.org/wiki/Open-core_model), but not [open source](https://en.wikipedia.org/wiki/Open_source). Much of its functionality — excluding the user interface — is provided by the projects below, available under MIT License:
 
 - [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform): glTF JavaScript SDK used for edits, analysis, and optimization.
 - [donmccurdy/glTF-Transform-View](https://github.com/donmccurdy/glTF-Transform-View/): Experimental rendering API for fast edit/refresh workflows.
