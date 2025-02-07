@@ -26,4 +26,4 @@ Other important dependencies used by this project include:
 - [Monaco](https://github.com/Microsoft/monaco-editor): Code editor powering VS Code.
 - [Tweakpane](https://github.com/cocopon/tweakpane): Compact GUI for editing and monitoring.
 
-Features and bug fixes in the projects above will eventually make their way to the glTF Report website. If you're interested in the project's source code for collaboration, commercial projects, or other purposes, reach out to [contact@donmccurdy.com](mailto:contact@donmccurdy.com) to discuss licensing options.
+Features and bug fixes in the projects above will eventually make their way to the glTF Report website.
